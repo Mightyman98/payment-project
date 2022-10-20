@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%)   ;
+}
+.container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: white;
+    height: 560px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.head-img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.text h2{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.text p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.plan{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin-top: 12px;
+    width: 80%;
+    padding: 12px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.ann{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.change{
+    margin-left: 20%;
+    color:hsl(245, 75%, 52%);
+    font-weight: 400;
+}
+.can{
+    display: block;
+    margin-top: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.pay{
+    background-color: hsl(245, 75%, 52%) ;
+    color: hsl(225, 100%, 98%);
+    padding: 15px;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 hsl(245, 77%, 72%) ;
+    cursor: pointer;
+
+}
+ 
+
+ 
